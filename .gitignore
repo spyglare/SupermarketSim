@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# nmluci Additional Exception
+
+*.code-workspace
