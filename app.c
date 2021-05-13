@@ -7,8 +7,9 @@
 
 int main() {
   // initMembership();
+  items userCart[50]; // 50 stack items a.k.a 50 jenis items
+
   initStorage();
-
   showList();
-
+  removeItem("tamago");
 }

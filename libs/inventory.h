@@ -11,9 +11,10 @@
 
     extern void initStorage();
     extern void showList();
-    extern void buyItem(items cart, char* name);
-    extern void returnItem(items cart, char* name); 
+    extern void buyItem(items* cart, items name);
+    extern void returnItem(items* cart, items name); 
+    extern void removeItem(char* name);
     static items addItem(char* data);
-    static void removeItem(char* name);
-    static int getItemInfo(char* name);
+    static void getItemInfo(items obj);
+    static void updateStorage();
 #endif
