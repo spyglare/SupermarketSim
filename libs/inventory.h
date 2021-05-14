@@ -1,7 +1,7 @@
 #ifndef __CX_INV__
     #define __CX_INV__
     #define invFile "inventory.data"
-    
+
     struct items_t {
         char* name;
         unsigned price;
@@ -11,11 +11,14 @@
 
     extern void initStorage();
     extern void showList();
-    extern void buyItem(items* cart, items name);
-    extern void returnItem(items* cart, items name); 
+    extern int checkout(items* cart);
     extern void removeItem(char* name);
     extern void appendItem(char* name, int price, unsigned qty);
-    static items addItem(char* data);
-    static void getItemInfo(items obj);
+    extern void buyItem(items* cart, char* name);
+    extern void returnItem(items* cart, char* name); 
+    static void addItem(char* data);
+    static void getItemInfo(char* name);
     static void updateStorage();
+    static int generateHash(char* name);
+    static unsigned length(const unsigned long num);
 #endif
