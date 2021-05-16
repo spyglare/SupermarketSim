@@ -1,7 +1,7 @@
 # SupermarketSim
 AKA Supermarket Simulator
 # Base Design
-## Simulator Supermarket yang dimana dapat menangani transaksi, keanggotaan (Mmber), dan inventaris (inventory)
+## Simulator Supermarket yang dimana dapat menangani transaksi, keanggotaan (Member), dan inventaris (inventory)
 
 # Codebase Platform
 ## [Github](github.com/nmluci/Supermarket) 
@@ -9,14 +9,14 @@ AKA Supermarket Simulator
 # Modules
 ## Inventory
 ### Client Side
-1. Baii Iem
-2. Retern Iem
-3. Cekout
-4. Check kart
+1. Buy Item
+2. Return Item
+3. Checkout
+4. Check Cart
 ### Server Side
-1. Et Items
+1. Add Items
 2. Remove items
-3. update Listing
+3. Update Listing
 4. Show Listing
 
 ## Customer Service (CustServices)
