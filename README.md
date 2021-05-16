@@ -9,14 +9,14 @@ AKA Supermarket Simulator
 # Modules
 ## Inventory
 ### Client Side
-1. Baii Iem
-2. Retern Iem
-3. Cekout
-4. Check kart
+1. Buy Iem
+2. Return Items
+3. Chcekout
+4. Check Cart
 ### Server Side
-1. Et Items
+1. Add Items
 2. Remove items
-3. update Listing
+3. Update Listing
 4. Show Listing
 
 ## Customer Service (CustServices)
