@@ -1,7 +1,7 @@
 # SupermarketSim
 AKA Supermarket Simulator
 # Base Design
-## Simulator Supermarket yang dimana dapat menangani transaksi, keanggotaan (Mmber), dan inventaris (inventory)
+## Simulator Supermarket yang dimana dapat menangani transaksi, keanggotaan (Member), dan inventaris (inventory)
 
 # Codebase Platform
 ## [Github](github.com/nmluci/Supermarket) 
